@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		923F12361C9A25EA0041F7B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F12351C9A25EA0041F7B2 /* AppDelegate.swift */; };
+		923F123D1C9A25EA0041F7B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923F123C1C9A25EA0041F7B2 /* Assets.xcassets */; };
+		923F12481C9A27250041F7B2 /* GamesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F12471C9A27250041F7B2 /* GamesListViewController.swift */; };
+		923F124A1C9A27990041F7B2 /* BattleshipCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F12491C9A27990041F7B2 /* BattleshipCollection.swift */; };
+		923F124C1C9A27B60041F7B2 /* BattleshipGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F124B1C9A27B60041F7B2 /* BattleshipGame.swift */; };
+		923F12511C9A2CDB0041F7B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 923F12501C9A2CDB0041F7B2 /* Default-568h@2x.png */; };
+		923F12531C9A2F4C0041F7B2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F12521C9A2F4C0041F7B2 /* Player.swift */; };
+		923F12551C9A301A0041F7B2 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F12541C9A301A0041F7B2 /* GameBoard.swift */; };
+		923F12571C9A49C80041F7B2 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F12561C9A49C80041F7B2 /* Grid.swift */; };
+		923F12591C9A74320041F7B2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F12581C9A74320041F7B2 /* GameViewController.swift */; };
+		923F125B1C9A75280041F7B2 /* InBetweenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F125A1C9A75280041F7B2 /* InBetweenViewController.swift */; };
+		923F125F1C9A75440041F7B2 /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F125E1C9A75440041F7B2 /* GameBoardView.swift */; };
+		923F12631C9A757A0041F7B2 /* NewGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F12621C9A757A0041F7B2 /* NewGameView.swift */; };
+		923F12651C9A758A0041F7B2 /* NewGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F12641C9A758A0041F7B2 /* NewGameViewController.swift */; };
+		925BAF5F1C9CA6BF00826FD8 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925BAF5E1C9CA6BF00826FD8 /* GridView.swift */; };
+		925BAF611C9CA73200826FD8 /* GridButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925BAF601C9CA73200826FD8 /* GridButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		923F12321C9A25EA0041F7B2 /* Battleship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Battleship.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		923F12351C9A25EA0041F7B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		923F123C1C9A25EA0041F7B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		923F12411C9A25EA0041F7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923F12471C9A27250041F7B2 /* GamesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GamesListViewController.swift; path = ../GamesListViewController.swift; sourceTree = "<group>"; };
+		923F12491C9A27990041F7B2 /* BattleshipCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleshipCollection.swift; sourceTree = SOURCE_ROOT; };
+		923F124B1C9A27B60041F7B2 /* BattleshipGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleshipGame.swift; sourceTree = SOURCE_ROOT; };
+		923F12501C9A2CDB0041F7B2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		923F12521C9A2F4C0041F7B2 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		923F12541C9A301A0041F7B2 /* GameBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
+		923F12561C9A49C80041F7B2 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		923F12581C9A74320041F7B2 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		923F125A1C9A75280041F7B2 /* InBetweenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InBetweenViewController.swift; sourceTree = "<group>"; };
+		923F125E1C9A75440041F7B2 /* GameBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
+		923F12621C9A757A0041F7B2 /* NewGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGameView.swift; sourceTree = "<group>"; };
+		923F12641C9A758A0041F7B2 /* NewGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGameViewController.swift; sourceTree = "<group>"; };
+		925BAF5E1C9CA6BF00826FD8 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		925BAF601C9CA73200826FD8 /* GridButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		923F122F1C9A25EA0041F7B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		923F12291C9A25EA0041F7B2 = {
+			isa = PBXGroup;
+			children = (
+				923F12501C9A2CDB0041F7B2 /* Default-568h@2x.png */,
+				923F12341C9A25EA0041F7B2 /* Battleship */,
+				923F12331C9A25EA0041F7B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		923F12331C9A25EA0041F7B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				923F12321C9A25EA0041F7B2 /* Battleship.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		923F12341C9A25EA0041F7B2 /* Battleship */ = {
+			isa = PBXGroup;
+			children = (
+				923F12351C9A25EA0041F7B2 /* AppDelegate.swift */,
+				923F124F1C9A28090041F7B2 /* Controllers */,
+				923F124E1C9A27F90041F7B2 /* Views */,
+				923F124D1C9A27F10041F7B2 /* Model */,
+				923F123C1C9A25EA0041F7B2 /* Assets.xcassets */,
+				923F12411C9A25EA0041F7B2 /* Info.plist */,
+			);
+			path = Battleship;
+			sourceTree = "<group>";
+		};
+		923F124D1C9A27F10041F7B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				923F12491C9A27990041F7B2 /* BattleshipCollection.swift */,
+				923F124B1C9A27B60041F7B2 /* BattleshipGame.swift */,
+				923F12521C9A2F4C0041F7B2 /* Player.swift */,
+				923F12541C9A301A0041F7B2 /* GameBoard.swift */,
+				923F12561C9A49C80041F7B2 /* Grid.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		923F124E1C9A27F90041F7B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				923F12621C9A757A0041F7B2 /* NewGameView.swift */,
+				925BAF5D1C9CA6A100826FD8 /* GameBoard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		923F124F1C9A28090041F7B2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				923F12471C9A27250041F7B2 /* GamesListViewController.swift */,
+				923F12641C9A758A0041F7B2 /* NewGameViewController.swift */,
+				923F12581C9A74320041F7B2 /* GameViewController.swift */,
+				923F125A1C9A75280041F7B2 /* InBetweenViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		925BAF5D1C9CA6A100826FD8 /* GameBoard */ = {
+			isa = PBXGroup;
+			children = (
+				923F125E1C9A75440041F7B2 /* GameBoardView.swift */,
+				925BAF5E1C9CA6BF00826FD8 /* GridView.swift */,
+				925BAF601C9CA73200826FD8 /* GridButton.swift */,
+			);
+			name = GameBoard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		923F12311C9A25EA0041F7B2 /* Battleship */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923F12441C9A25EA0041F7B2 /* Build configuration list for PBXNativeTarget "Battleship" */;
+			buildPhases = (
+				923F122E1C9A25EA0041F7B2 /* Sources */,
+				923F122F1C9A25EA0041F7B2 /* Frameworks */,
+				923F12301C9A25EA0041F7B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Battleship;
+			productName = Battleship;
+			productReference = 923F12321C9A25EA0041F7B2 /* Battleship.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		923F122A1C9A25EA0041F7B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = cs4962;
+				TargetAttributes = {
+					923F12311C9A25EA0041F7B2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WDTNFTE9F8;
+					};
+				};
+			};
+			buildConfigurationList = 923F122D1C9A25EA0041F7B2 /* Build configuration list for PBXProject "Battleship" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 923F12291C9A25EA0041F7B2;
+			productRefGroup = 923F12331C9A25EA0041F7B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				923F12311C9A25EA0041F7B2 /* Battleship */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		923F12301C9A25EA0041F7B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923F123D1C9A25EA0041F7B2 /* Assets.xcassets in Resources */,
+				923F12511C9A2CDB0041F7B2 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		923F122E1C9A25EA0041F7B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923F125B1C9A75280041F7B2 /* InBetweenViewController.swift in Sources */,
+				923F124C1C9A27B60041F7B2 /* BattleshipGame.swift in Sources */,
+				923F124A1C9A27990041F7B2 /* BattleshipCollection.swift in Sources */,
+				925BAF5F1C9CA6BF00826FD8 /* GridView.swift in Sources */,
+				923F125F1C9A75440041F7B2 /* GameBoardView.swift in Sources */,
+				923F12361C9A25EA0041F7B2 /* AppDelegate.swift in Sources */,
+				923F12531C9A2F4C0041F7B2 /* Player.swift in Sources */,
+				923F12591C9A74320041F7B2 /* GameViewController.swift in Sources */,
+				923F12551C9A301A0041F7B2 /* GameBoard.swift in Sources */,
+				923F12651C9A758A0041F7B2 /* NewGameViewController.swift in Sources */,
+				923F12571C9A49C80041F7B2 /* Grid.swift in Sources */,
+				923F12631C9A757A0041F7B2 /* NewGameView.swift in Sources */,
+				923F12481C9A27250041F7B2 /* GamesListViewController.swift in Sources */,
+				925BAF611C9CA73200826FD8 /* GridButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		923F12421C9A25EA0041F7B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		923F12431C9A25EA0041F7B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		923F12451C9A25EA0041F7B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Battleship/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.utah.cs4962.Battleship;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		923F12461C9A25EA0041F7B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Battleship/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.utah.cs4962.Battleship;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		923F122D1C9A25EA0041F7B2 /* Build configuration list for PBXProject "Battleship" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923F12421C9A25EA0041F7B2 /* Debug */,
+				923F12431C9A25EA0041F7B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923F12441C9A25EA0041F7B2 /* Build configuration list for PBXNativeTarget "Battleship" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923F12451C9A25EA0041F7B2 /* Debug */,
+				923F12461C9A25EA0041F7B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 923F122A1C9A25EA0041F7B2 /* Project object */;
+}
