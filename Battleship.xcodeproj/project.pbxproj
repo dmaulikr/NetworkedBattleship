@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		923CA4B11CB073B80005B6EE /* NewOnlineGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923CA4B01CB073B80005B6EE /* NewOnlineGameView.swift */; };
+		923CA4B31CB074290005B6EE /* JoinOnlineGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923CA4B21CB074290005B6EE /* JoinOnlineGameView.swift */; };
+		923CA4B91CB076510005B6EE /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923CA4B81CB076510005B6EE /* MainMenuView.swift */; };
+		923CA4BB1CB078EB0005B6EE /* MainMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923CA4BA1CB078EB0005B6EE /* MainMenuController.swift */; };
+		923CA4BD1CB0875A0005B6EE /* NewOnlineGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923CA4BC1CB0875A0005B6EE /* NewOnlineGameViewController.swift */; };
+		923CA4BF1CB12C720005B6EE /* JoinOnlineGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923CA4BE1CB12C720005B6EE /* JoinOnlineGameViewController.swift */; };
 		923F12361C9A25EA0041F7B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F12351C9A25EA0041F7B2 /* AppDelegate.swift */; };
 		923F123D1C9A25EA0041F7B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923F123C1C9A25EA0041F7B2 /* Assets.xcassets */; };
 		923F12481C9A27250041F7B2 /* GamesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F12471C9A27250041F7B2 /* GamesListViewController.swift */; };
@@ -21,11 +27,18 @@
 		923F125F1C9A75440041F7B2 /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F125E1C9A75440041F7B2 /* GameBoardView.swift */; };
 		923F12631C9A757A0041F7B2 /* NewGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F12621C9A757A0041F7B2 /* NewGameView.swift */; };
 		923F12651C9A758A0041F7B2 /* NewGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F12641C9A758A0041F7B2 /* NewGameViewController.swift */; };
+		925285541CB26902007C9909 /* MyOnlineGamesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925285531CB26902007C9909 /* MyOnlineGamesListViewController.swift */; };
 		925BAF5F1C9CA6BF00826FD8 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925BAF5E1C9CA6BF00826FD8 /* GridView.swift */; };
 		925BAF611C9CA73200826FD8 /* GridButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925BAF601C9CA73200826FD8 /* GridButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		923CA4B01CB073B80005B6EE /* NewOnlineGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewOnlineGameView.swift; sourceTree = "<group>"; };
+		923CA4B21CB074290005B6EE /* JoinOnlineGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinOnlineGameView.swift; sourceTree = "<group>"; };
+		923CA4B81CB076510005B6EE /* MainMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		923CA4BA1CB078EB0005B6EE /* MainMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuController.swift; sourceTree = "<group>"; };
+		923CA4BC1CB0875A0005B6EE /* NewOnlineGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewOnlineGameViewController.swift; sourceTree = "<group>"; };
+		923CA4BE1CB12C720005B6EE /* JoinOnlineGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinOnlineGameViewController.swift; sourceTree = "<group>"; };
 		923F12321C9A25EA0041F7B2 /* Battleship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Battleship.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		923F12351C9A25EA0041F7B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		923F123C1C9A25EA0041F7B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +55,7 @@
 		923F125E1C9A75440041F7B2 /* GameBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
 		923F12621C9A757A0041F7B2 /* NewGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGameView.swift; sourceTree = "<group>"; };
 		923F12641C9A758A0041F7B2 /* NewGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGameViewController.swift; sourceTree = "<group>"; };
+		925285531CB26902007C9909 /* MyOnlineGamesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOnlineGamesListViewController.swift; sourceTree = "<group>"; };
 		925BAF5E1C9CA6BF00826FD8 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		925BAF601C9CA73200826FD8 /* GridButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +71,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		923CA4B41CB0747D0005B6EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				923F12491C9A27990041F7B2 /* BattleshipCollection.swift */,
+				923F124B1C9A27B60041F7B2 /* BattleshipGame.swift */,
+				923F12521C9A2F4C0041F7B2 /* Player.swift */,
+				923F12541C9A301A0041F7B2 /* GameBoard.swift */,
+				923F12561C9A49C80041F7B2 /* Grid.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		923F12291C9A25EA0041F7B2 = {
 			isa = PBXGroup;
 			children = (
@@ -80,23 +106,11 @@
 				923F12351C9A25EA0041F7B2 /* AppDelegate.swift */,
 				923F124F1C9A28090041F7B2 /* Controllers */,
 				923F124E1C9A27F90041F7B2 /* Views */,
-				923F124D1C9A27F10041F7B2 /* Model */,
+				923CA4B41CB0747D0005B6EE /* Model */,
 				923F123C1C9A25EA0041F7B2 /* Assets.xcassets */,
 				923F12411C9A25EA0041F7B2 /* Info.plist */,
 			);
 			path = Battleship;
-			sourceTree = "<group>";
-		};
-		923F124D1C9A27F10041F7B2 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				923F12491C9A27990041F7B2 /* BattleshipCollection.swift */,
-				923F124B1C9A27B60041F7B2 /* BattleshipGame.swift */,
-				923F12521C9A2F4C0041F7B2 /* Player.swift */,
-				923F12541C9A301A0041F7B2 /* GameBoard.swift */,
-				923F12561C9A49C80041F7B2 /* Grid.swift */,
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 		923F124E1C9A27F90041F7B2 /* Views */ = {
@@ -104,6 +118,9 @@
 			children = (
 				923F12621C9A757A0041F7B2 /* NewGameView.swift */,
 				925BAF5D1C9CA6A100826FD8 /* GameBoard */,
+				923CA4B01CB073B80005B6EE /* NewOnlineGameView.swift */,
+				923CA4B21CB074290005B6EE /* JoinOnlineGameView.swift */,
+				923CA4B81CB076510005B6EE /* MainMenuView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -113,8 +130,12 @@
 			children = (
 				923F12471C9A27250041F7B2 /* GamesListViewController.swift */,
 				923F12641C9A758A0041F7B2 /* NewGameViewController.swift */,
+				923CA4BC1CB0875A0005B6EE /* NewOnlineGameViewController.swift */,
 				923F12581C9A74320041F7B2 /* GameViewController.swift */,
 				923F125A1C9A75280041F7B2 /* InBetweenViewController.swift */,
+				923CA4BA1CB078EB0005B6EE /* MainMenuController.swift */,
+				923CA4BE1CB12C720005B6EE /* JoinOnlineGameViewController.swift */,
+				925285531CB26902007C9909 /* MyOnlineGamesListViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -200,12 +221,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				923CA4B91CB076510005B6EE /* MainMenuView.swift in Sources */,
+				923CA4B11CB073B80005B6EE /* NewOnlineGameView.swift in Sources */,
+				923CA4B31CB074290005B6EE /* JoinOnlineGameView.swift in Sources */,
 				923F125B1C9A75280041F7B2 /* InBetweenViewController.swift in Sources */,
 				923F124C1C9A27B60041F7B2 /* BattleshipGame.swift in Sources */,
 				923F124A1C9A27990041F7B2 /* BattleshipCollection.swift in Sources */,
 				925BAF5F1C9CA6BF00826FD8 /* GridView.swift in Sources */,
+				923CA4BB1CB078EB0005B6EE /* MainMenuController.swift in Sources */,
 				923F125F1C9A75440041F7B2 /* GameBoardView.swift in Sources */,
 				923F12361C9A25EA0041F7B2 /* AppDelegate.swift in Sources */,
+				925285541CB26902007C9909 /* MyOnlineGamesListViewController.swift in Sources */,
 				923F12531C9A2F4C0041F7B2 /* Player.swift in Sources */,
 				923F12591C9A74320041F7B2 /* GameViewController.swift in Sources */,
 				923F12551C9A301A0041F7B2 /* GameBoard.swift in Sources */,
@@ -213,7 +239,9 @@
 				923F12571C9A49C80041F7B2 /* Grid.swift in Sources */,
 				923F12631C9A757A0041F7B2 /* NewGameView.swift in Sources */,
 				923F12481C9A27250041F7B2 /* GamesListViewController.swift in Sources */,
+				923CA4BD1CB0875A0005B6EE /* NewOnlineGameViewController.swift in Sources */,
 				925BAF611C9CA73200826FD8 /* GridButton.swift in Sources */,
+				923CA4BF1CB12C720005B6EE /* JoinOnlineGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

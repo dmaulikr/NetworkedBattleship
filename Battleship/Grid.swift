@@ -15,7 +15,7 @@ class Grid {
     
     //creates a grid
     init(){
-        for(var count = 0; count < numberOfColumns; count++){
+        for(var count = 0; count < numberOfColumns; count += 1){
             columns.append(Column())
         }
     }
@@ -30,6 +30,22 @@ class Grid {
         columns[column].setLocationAtIndex(row, value: value );
     }
     
+    //updates value at a specified location
+    func updateOnlineLocation(column: Int, row: Int, value: String){
+        var num: Int = 4
+        if(value == "MISS"){
+            num = 0
+        }else if (value == "HIT") {
+            num = 1
+        } else if (value == "NONE") {
+            num = 2
+        } else if (value == "SHIP"){
+            num = 3
+        }
+        
+        columns[column].setLocationAtIndex(row, value: num );
+    }
+    
     // 0 = miss, 1 = hit, 2 = water, 3 = ship
     class Column {
         var _rows: [Int] = []
@@ -37,7 +53,7 @@ class Grid {
         
         //creates rows for each column with default water value
         init() {
-            for (var index: Int = 0 ; index < rowCount ; index++) {
+            for (var index: Int = 0 ; index < rowCount ;  index += 1) {
                 _rows.append(2)
             }
         }

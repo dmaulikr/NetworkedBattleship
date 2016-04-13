@@ -11,6 +11,8 @@ import UIKit
 //all the info you need for a single game of battleship
 class BattleshipGame{
 
+    var _gameName: String = ""
+    var _gameId: String = ""
     var _firstPlayer: Player = Player()
     var _secondPlayer: Player = Player()
     var _gameOver: Bool = false

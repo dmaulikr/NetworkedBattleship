@@ -16,6 +16,7 @@ class Player {
     var misses: [String] = [String]()
     var shots: Int = 0
     var board: GameBoard = GameBoard()
+    var playerId: String = ""
     
     //calculates hitCount
     var hitCount: Int {

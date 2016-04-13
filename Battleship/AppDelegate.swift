@@ -14,10 +14,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-
+        
+        let _collection: BattleshipCollection = BattleshipCollection.sharedInstance
+        
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        window?.rootViewController = UINavigationController(rootViewController: GamesListViewController())
+        window?.rootViewController = UINavigationController(rootViewController: MainMenuController())
         window?.makeKeyAndVisible()
+        _collection.NetworkRequestGameList()
 
         return true
     }

@@ -24,7 +24,7 @@ class InBetweenMovesController: UIViewController
         //main button
         _switchButton = UIButton()
         _switchButton!.setTitle("Ready", forState: UIControlState.Normal)
-        _switchButton!.addTarget(self, action: "swapPlayers", forControlEvents: UIControlEvents.TouchUpInside)
+        _switchButton!.addTarget(self, action: #selector(InBetweenMovesController.swapPlayers), forControlEvents: UIControlEvents.TouchUpInside)
         _switchButton!.backgroundColor = .redColor()
         _switchButton!.layer.cornerRadius = 10
         view.addSubview(_switchButton!)

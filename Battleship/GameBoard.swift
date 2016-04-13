@@ -68,13 +68,13 @@ class GameBoard {
             rowIndex = (Int)(arc4random_uniform(10))
         }
         
-        for(var index = 0 ; index < spaceSize; index++){
+        for(var index = 0 ; index < spaceSize; index += 1){
             if(_map.getLocationInformation(columnIndex + index, row: rowIndex) == 3){
                 return false
             }
         }
         
-        for(var index = 0; index < spaceSize; index++){
+        for(var index = 0; index < spaceSize; index += 1){
             _shipLocations.append("\(rowIndex),\(columnIndex + index)")
             _map.updateLocation(columnIndex + index, row: rowIndex, value: 3)
         }
@@ -98,13 +98,13 @@ class GameBoard {
             rowIndex = (Int)(arc4random_uniform(10))
         }
         
-        for(var index = 0 ; index < spaceSize; index++){
+        for(var index = 0 ; index < spaceSize; index += 1){
             if(_map.getLocationInformation(columnIndex, row: rowIndex + index) == 3){
                 return false
             }
         }
         
-        for(var index = 0; index < spaceSize; index++){
+        for(var index = 0; index < spaceSize; index += 1){
             _shipLocations.append("\(rowIndex + index),\(columnIndex)")
             _map.updateLocation(columnIndex, row: rowIndex + index, value: 3)
         }

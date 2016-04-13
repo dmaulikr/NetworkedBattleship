@@ -46,6 +46,7 @@ class GameBoardView: UIView {
         fireButton.frame = CGRectMake(190, (frame.width / 2) - 30, frame.width / 3, 40)
         addSubview(fireButton)
         
+        if(!_collection.online){
         //stats
         shipsRemainingLabel.text = "Enemy Lives: 17"
         shipsRemainingLabel.textColor = .whiteColor()
@@ -66,6 +67,27 @@ class GameBoardView: UIView {
         missCountLabel.textColor = .whiteColor()
         missCountLabel.font = UIFont.systemFontOfSize(12.0)
         addSubview(missCountLabel)
+        } else if (!_collection._continueOldGame){
+            shipsRemainingLabel.text = "Enemy Lives:"
+            shipsRemainingLabel.textColor = .whiteColor()
+            shipsRemainingLabel.font = UIFont.systemFontOfSize(18.0)
+            addSubview(shipsRemainingLabel)
+            
+            shotsCountLabel.text = "17"
+            shotsCountLabel.textColor = .whiteColor()
+            shotsCountLabel.font = UIFont.systemFontOfSize(18.0)
+            addSubview(shotsCountLabel)
+        } else {
+//            shipsRemainingLabel.text = "Missiles Launched:"
+//            shipsRemainingLabel.textColor = .whiteColor()
+//            shipsRemainingLabel.font = UIFont.systemFontOfSize(18.0)
+//            addSubview(shipsRemainingLabel)
+//            
+//            shotsCountLabel.text = "0"
+//            shotsCountLabel.textColor = .whiteColor()
+//            shotsCountLabel.font = UIFont.systemFontOfSize(18.0)
+//            addSubview(shotsCountLabel)
+        }
 
     }
     
@@ -84,11 +106,18 @@ class GameBoardView: UIView {
             opponentShips = GridView(frame: CGRectMake(10, (frame.width / 4) + 110 , frame.width - 20, frame.width - 20), board: _opponentGrid!, touchable: true)
             
             fireButton.frame = CGRectMake(190, (frame.width / 2) - 30, frame.width / 3, 40)
+            
+            if(!_collection.online){
+
             shipsRemainingLabel.frame = CGRectMake(190, 10, frame.width / 3 + 10, 15)
             shotsCountLabel.frame = CGRectMake(190, 40, frame.width / 3 + 10, 15)
             hitCountLabel.frame = CGRectMake(190, 70, frame.width / 3 + 10, 15)
             missCountLabel.frame = CGRectMake(190, 100, frame.width / 3 + 10, 15)
-            
+            } else {
+                shipsRemainingLabel.frame = CGRectMake(190, 40, frame.width / 3 + 10, 15)
+                shotsCountLabel.frame = CGRectMake(230, 70, frame.width / 3 + 10, 15)
+
+            }
             addSubview(playerShips)
             addSubview(opponentShips)
         }
@@ -101,11 +130,17 @@ class GameBoardView: UIView {
             opponentShips = GridView(frame: CGRectMake(frame.width - frame.height, 10, frame.height - 20, frame.height - 20), board: _opponentGrid!, touchable: true)
             
             fireButton.frame = CGRectMake(20, (frame.height / 1.5) + 30, frame.height / 3, 40)
+            if(!_collection.online){
+
             shipsRemainingLabel.frame = CGRectMake(30 + frame.height/3, (frame.height / 1.5) + 20, frame.height / 3 + 20, 15)
             shotsCountLabel.frame = CGRectMake(30 + frame.height/3, (frame.height / 1.5) + 35, frame.height / 3 + 20, 15)
             hitCountLabel.frame = CGRectMake(30 + frame.height/3, (frame.height / 1.5) + 50, frame.height / 3 + 20, 15)
             missCountLabel.frame = CGRectMake(30 + frame.height/3, (frame.height / 1.5) + 65, frame.height / 3 + 20, 15)
-            
+            } else {
+                shipsRemainingLabel.frame = CGRectMake(30 + frame.height/3, (frame.height / 1.5) + 20, frame.height / 3 + 20, 15)
+                shotsCountLabel.frame = CGRectMake(30 + frame.height/3 + 40, (frame.height / 1.5) + 50, frame.height / 3 + 20, 15)
+
+            }
             addSubview(playerShips)
             addSubview(opponentShips)
         }
